@@ -1,4 +1,4 @@
-FROM ruby:3.3.6-slim
+FROM ruby:3.3.13-slim
 
 # gemのインストールやPostgreSQL接続、画像処理に必要なもの
 RUN apt-get update -qq && \
